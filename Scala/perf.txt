@@ -1,1 +1,5 @@
-The performance results should go here.
+The mean for size n=1 is 0.8011994 milliseconds and the standard deviation is 1.7277945298869595 milliseconds
+The mean for size n=10 is 0.35882659999999994 milliseconds and the standard deviation is 0.579050314559797 milliseconds
+The mean for size n=100 is 0.8049833999999999 milliseconds and the standard deviation is 0.11927730240200769 milliseconds
+The mean for size n=1000 is 6.345696199999999 milliseconds and the standard deviation is 5.503880207042273 milliseconds
+The mean for size n=10000 is 356.7902142 milliseconds and the standard deviation is 14.45328585329642 milliseconds
