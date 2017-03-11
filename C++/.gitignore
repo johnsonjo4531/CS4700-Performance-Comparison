@@ -1,3 +1,9 @@
+# Build, and IDE based  Directories
+build/*
+dist/*
+nbproject/*
+.dep.inc
+
 # Prerequisites
 *.d
 
