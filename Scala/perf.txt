@@ -1,5 +1,7 @@
-The mean for size n=1 is 0.8011994 milliseconds and the standard deviation is 1.7277945298869595 milliseconds
-The mean for size n=10 is 0.35882659999999994 milliseconds and the standard deviation is 0.579050314559797 milliseconds
-The mean for size n=100 is 0.8049833999999999 milliseconds and the standard deviation is 0.11927730240200769 milliseconds
-The mean for size n=1000 is 6.345696199999999 milliseconds and the standard deviation is 5.503880207042273 milliseconds
-The mean for size n=10000 is 356.7902142 milliseconds and the standard deviation is 14.45328585329642 milliseconds
+The mean for size n=1 is 1.6832359999999997 milliseconds and the standard deviation is 3.671404861590247 milliseconds
+The mean for size n=10 is 0.2997696 milliseconds and the standard deviation is 0.3516210093378949 milliseconds
+The mean for size n=100 is 0.4582512 milliseconds and the standard deviation is 0.08799536035610057 milliseconds
+The mean for size n=1000 is 1.3620835999999998 milliseconds and the standard deviation is 0.6976953166883092 milliseconds
+The mean for size n=10000 is 4.5509094 milliseconds and the standard deviation is 2.554064054125953 milliseconds
+The mean for size n=100000 is 8.9821594 milliseconds and the standard deviation is 4.559164449910126 milliseconds
+The mean for size n=1000000 is 250.4604718 milliseconds and the standard deviation is 138.56798125235568 milliseconds
