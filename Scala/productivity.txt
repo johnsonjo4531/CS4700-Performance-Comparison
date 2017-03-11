@@ -1,1 +1,1 @@
-The productivity review for the language should go here.
+Coming to Scala from primarily JavaScript programming was a little tough. When I first created the Sieve I used a List, but come to find out those are immutable so I was getting errors when trying to change values in the list. I then used a ListBuffer, but that is implemented as a linked list and has access time of O(n) which slowed down the performance for large n. I then used an Array which is both mutable and has quick random access.
