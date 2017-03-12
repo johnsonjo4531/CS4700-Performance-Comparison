@@ -116,7 +116,7 @@ void printStatistics(float data[], uint32_t n, uint32_t loops)
      standardDeviation += pow(data[i] - mean, 2);
    }
    
-   printf("The mean size for n=%d is %f milliseconds and the standard deviation is %f milliseconds\n", n, mean, standardDeviation);
+   printf("For n=%d, runtime: %f ms with standard deviation of %f ms\n", n, mean, standardDeviation);
 }
 
 
