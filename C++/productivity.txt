@@ -1,1 +1,6 @@
-The productivity review for the language should go here.
+Many baseline libraries to help speed development
+Low-level allocations and buffer handling lead to mistakes and program crashes
+Lots of boiler-plate function definition and prototyping took time to write and was tedious.
+Strong typed system can be a pain to worry about when trying to write quickly
+Too many ways of doing the same thing lead to ambiguity and not knowing which is best
+Already being familiar with the language was a huge help and in the case of a beginner the learning curve could be disadvantages
