@@ -46,7 +46,6 @@ int main(int argc, char** argv)
       }
       printStatistics(performance, nVals[i], numberLoops);
    }
-   eratosthenes(1000000);
    return 0;
 }
 
@@ -59,16 +58,16 @@ float_t eratosthenes(uint32_t n)
 {
    // Scope variables
    float_t performance_mSec;
+   uint64_t primeIndex = 0;
    std::clock_t start;
    
-   // Allocate memory (this step will not be taken into account in performance)
-   bool* theBuf = new bool[n + 1];
-   memset(theBuf, 1, n);
-   
-   
    // Start performance metric
-
    start = std::clock();
+   
+   // Allocate memory
+   bool* theBuf = new bool[n + 1];
+   uint64_t* primes = new uint64_t[n + 1];
+   memset(theBuf, 1, n);
    
    // Main Eratosthenes function
    for (uint64_t i = 2; i <= sqrt(n); i++)
@@ -81,6 +80,16 @@ float_t eratosthenes(uint32_t n)
          }
       }
    }
+   
+   // Create a buffered list of all the primes computed
+   for (uint64_t i = 2; i < n; i++)
+   {
+      if (theBuf[i])
+      {
+         primes[primeIndex++] = i;
+      }
+   }
+   
    
    // Calculate performance in micro seconds
    performance_mSec = (std::clock() - start) / (double)(CLOCKS_PER_SEC / DIV_MILLISECONDS);
