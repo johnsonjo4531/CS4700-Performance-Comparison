@@ -48,6 +48,8 @@ public class Sieve {
         mean = sum / loops;
 
         for(int i = 0; i < loops; ++i) standardDeviation += Math.pow(data[i] - mean, 2);
+        standardDeviation /= loops;
+        standardDeviation = Math.sqrt(standardDeviation);
         System.out.printf("The mean size for n = %d is %f milliseconds and the standard deviation is %f milliseconds\n", n, mean, standardDeviation);
     }
 
