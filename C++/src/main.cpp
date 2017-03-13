@@ -115,7 +115,9 @@ void printStatistics(float data[], uint32_t n, uint32_t loops)
    {
      standardDeviation += pow(data[i] - mean, 2);
    }
-   
+
+   standardDeviation /= loops;
+   standardDeviation = sqrt(standardDeviation)
    printf("For n=%d, runtime: %f ms with standard deviation of %f ms\n", n, mean, standardDeviation);
 }
 
